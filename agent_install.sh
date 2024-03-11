@@ -18,7 +18,6 @@ else
 fi
 
 echo "Starting snort service..."
+
+sudo snort -d -i enp0s3 -A unsock
 #start snort service here
-echo "Starting python listener..."
-#start python listener here
-echo "Installation completed."
