@@ -5,7 +5,7 @@ import sys
 import argparse
 import os
 import ctypes
-from snort import Alertpkt
+from snort_alert import Alertpkt
 from scapy.all import *
 #constant socket path
 S_PATH = "/var/log/snort/snort_alert"
