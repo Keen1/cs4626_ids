@@ -1,4 +1,5 @@
-"""Provide ctypes' struct Alertpkt definition from spo_alert_unixsock.h"""
+"""Provide ctypes' struct Alertpkt definition from spo_alert_unixsock.h
+	written by: https://gist.github.com/John-Lin/4369e31838d3d2a57661#file-snort-py"""
 from ctypes import *
 
 ALERTMSG_LENGTH = 256 # decode.h
